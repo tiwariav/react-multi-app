@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": ["react-hooks"],
+  "rules": {
+    "no-console": "error",
+    "react-hooks/rules-of-hooks": "error"
+  }
+}

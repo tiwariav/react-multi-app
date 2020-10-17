@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-rscss/config",
+    "stylelint-8-point-grid",
+    "stylelint-a11y/recommended",
+    "stylelint-config-rational-order"
+  ],
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.cjs"
+  ],
+  "plugins": [
+    "stylelint-declaration-block-no-ignored-properties",
+    "stylelint-no-unsupported-browser-features",
+    "stylelint-no-unused-selectors",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": null,
+    "max-nesting-depth": 4,
+    "plugin/8-point-grid": {
+      "base": 0.125
+    },
+    "plugin/declaration-block-no-ignored-properties": true,
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "plugin/no-unused-selectors": true,
+    "rscss/class-format": [
+      true,
+      {
+        "component": "pascal-case",
+        "element": "^[a-z0-9]+-?[a-z0-9]*$"
+      }
+    ],
+    "rscss/no-descendant-combinator": false,
+    "selector-class-pattern": null
+  }
+}

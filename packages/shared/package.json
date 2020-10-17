@@ -1,0 +1,17 @@
+{
+  "name": "@react-multi-app-cra/shared",
+  "version": "0.1.0",
+  "description": "Shared components for web apps",
+  "keywords": [
+    "components",
+    "react",
+    "shared"
+  ],
+  "type": "module",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}

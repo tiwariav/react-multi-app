@@ -1,0 +1,53 @@
+{
+  "name": "react-multi-app-cra",
+  "private": true,
+  "homepage": "https://github.com/tiwariav/react-multi-app-cra",
+  "bugs": {
+    "url": "https://github.com/tiwariav/react-multi-app-cra/issues",
+    "email": "tiwariav@gmail.com"
+  },
+  "repository": "github:tiwariav/react-multi-app-cra",
+  "author": {
+    "name": "Arvind Tiwari",
+    "email": "tiwariav@gmail.com"
+  },
+  "workspaces": [
+    "webapps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "babel-eslint": "^10.1.0",
+    "conventional-changelog-cli": "^2.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-compat": "^3.8.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-8-point-grid": "^1.0.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-no-unsupported-browser-features": "^4.0.0",
+    "stylelint-no-unused-selectors": "^1.0.30",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-rscss": "^0.4.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {}
+}
