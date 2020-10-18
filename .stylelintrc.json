@@ -1,9 +1,7 @@
 {
   "extends": [
     "stylelint-config-standard",
-    "stylelint-config-sass-guidelines",
     "stylelint-rscss/config",
-    "stylelint-8-point-grid",
     "stylelint-a11y/recommended",
     "stylelint-config-rational-order"
   ],
@@ -14,15 +12,10 @@
   "plugins": [
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-no-unsupported-browser-features",
-    "stylelint-no-unused-selectors",
-    "stylelint-scss"
+    "stylelint-no-unused-selectors"
   ],
   "rules": {
     "order/properties-alphabetical-order": null,
-    "max-nesting-depth": 4,
-    "plugin/8-point-grid": {
-      "base": 0.125
-    },
     "plugin/declaration-block-no-ignored-properties": true,
     "plugin/no-unsupported-browser-features": [
       true,
