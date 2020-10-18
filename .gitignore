@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn zero install
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
