@@ -42,6 +42,5 @@
     "stylelint-prettier": "^1.1.2",
     "stylelint-rscss": "^0.4.0"
   },
-  "license": "UNLICENSED",
-  "dependencies": {}
+  "license": "UNLICENSED"
 }

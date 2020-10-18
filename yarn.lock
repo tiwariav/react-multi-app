@@ -2353,6 +2353,34 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@react-multi-app-cra/storybook@workspace:packages/storybook":
+  version: 0.0.0-use.local
+  resolution: "@react-multi-app-cra/storybook@workspace:packages/storybook"
+  dependencies:
+    "@babel/core": ^7.12.3
+    "@mdx-js/react": ^1.6.18
+    "@storybook/addon-actions": ^6.0.26
+    "@storybook/addon-docs": ^6.0.26
+    "@storybook/addon-essentials": ^6.0.26
+    "@storybook/addon-links": ^6.0.26
+    "@storybook/node-logger": ^6.0.26
+    "@storybook/preset-create-react-app": ^3.1.4
+    "@storybook/react": ^6.0.26
+    "@testing-library/jest-dom": ^4.2.4
+    "@testing-library/react": ^9.5.0
+    "@testing-library/user-event": ^7.2.1
+    babel-loader: ^8.1.0
+    core-js: ^3.6.5
+    prop-types: ^15.7.2
+    react: ^16.14.0
+    react-app-rewire-yarn-workspaces: ^1.0.3
+    react-app-rewired: ^2.1.6
+    react-dom: ^16.14.0
+    react-is: ^16.13.1
+    react-scripts: 3.4.3
+  languageName: unknown
+  linkType: soft
+
 "@sheerun/mutationobserver-shim@npm:^0.3.2":
   version: 0.3.3
   resolution: "@sheerun/mutationobserver-shim@npm:0.3.3"
@@ -17214,17 +17242,7 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "react-multi-app-cra@workspace:."
   dependencies:
-    "@babel/core": ^7.12.3
-    "@mdx-js/react": ^1.6.18
-    "@storybook/addon-actions": ^6.0.26
-    "@storybook/addon-docs": ^6.0.26
-    "@storybook/addon-essentials": ^6.0.26
-    "@storybook/addon-links": ^6.0.26
-    "@storybook/node-logger": ^6.0.26
-    "@storybook/preset-create-react-app": ^3.1.4
-    "@storybook/react": ^6.0.26
     babel-eslint: ^10.1.0
-    babel-loader: ^8.1.0
     conventional-changelog-cli: ^2.1.0
     eslint: ^7.11.0
     eslint-config-prettier: ^6.13.0
@@ -17238,7 +17256,6 @@ fsevents@~2.1.2:
     eslint-plugin-react-hooks: ^4.1.2
     lint-staged: ^10.4.2
     prettier: ^2.1.2
-    react-is: ^16.13.1
     stylelint: ^13.7.2
     stylelint-a11y: ^1.2.3
     stylelint-config-prettier: ^8.0.2

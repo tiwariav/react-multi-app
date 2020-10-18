@@ -7,7 +7,6 @@
     "react",
     "shared"
   ],
-  "type": "module",
   "scripts": {
     "precommit": "lint-staged"
   },
