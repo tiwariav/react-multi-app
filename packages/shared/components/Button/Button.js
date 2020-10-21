@@ -5,7 +5,13 @@ import "./button.css";
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+export const Button = ({
+  primary,
+  backgroundColor,
+  size,
+  children,
+  ...props
+}) => {
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
@@ -18,7 +24,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
-      {label}
+      {children}
     </button>
   );
 };

@@ -4,9 +4,9 @@
 
 ## Features
 
-- Create React App 3 (React 16.14)
+- Create React App 3 (React 17.0)
 - Storybook 6
-- Yarn (v2) Workspaces
+- Yarn Workspaces (v2 / berry)
 - Host Multiple CRA Apps and Component Libraries in one Monorepo
 - Include any App into any another App as a component
 - Include components from one App into another
@@ -20,7 +20,7 @@ cd react-multi-app-cra
 yarn
 ```
 
-## How does it work?
+## How does it work
 
 Importing components from a shared library is done by overriding CRA webpack config using react-app-rewired to transpile components from
 all packages in the workspace (using [react-app-rewire-yarn-workspaces](https://github.com/viewstools/yarn-workspaces-cra-crna/tree/master/react-app-rewire-yarn-workspaces)).

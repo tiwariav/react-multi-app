@@ -1,17 +1,17 @@
 {
-  "name": "@react-multi-app-cra/app-first",
+  "name": "@react-multi-app/app-first",
   "version": "0.1.0",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
-  },
-  "devDependencies": {
+    "@react-multi-app/shared": "*",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.9",
+    "customize-cra": "^1.0.0",
+    "react": "^17.0.0",
     "react-app-rewire-yarn-workspaces": "^1.0.3",
-    "react-app-rewired": "^2.1.6"
+    "react-app-rewired": "^2.1.6",
+    "react-dom": "^17.0.0",
+    "react-scripts": "3.4.4"
   },
   "scripts": {
     "precommit": "lint-staged",

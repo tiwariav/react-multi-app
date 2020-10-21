@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import TestComponent from '@react-multi-app-cra/shared/components/TestComponent';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "@react-multi-app/shared/components/Button/Button";
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
         >
           Learn React
         </a>
-        <TestComponent/>
+        <hr />
+        <Button primary>Shared Button</Button>
       </header>
     </div>
   );

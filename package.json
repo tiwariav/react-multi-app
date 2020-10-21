@@ -1,12 +1,12 @@
 {
-  "name": "react-multi-app-cra",
+  "name": "react-multi-app",
   "private": true,
-  "homepage": "https://github.com/tiwariav/react-multi-app-cra",
+  "homepage": "https://github.com/tiwariav/react-multi-app",
   "bugs": {
-    "url": "https://github.com/tiwariav/react-multi-app-cra/issues",
+    "url": "https://github.com/tiwariav/react-multi-app/issues",
     "email": "tiwariav@gmail.com"
   },
-  "repository": "github:tiwariav/react-multi-app-cra",
+  "repository": "github:tiwariav/react-multi-app",
   "author": {
     "name": "Arvind Tiwari",
     "email": "tiwariav@gmail.com"
