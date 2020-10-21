@@ -1,6 +1,6 @@
 # React Multi App with create-react-app
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tiwariav_react-multi-app-cra&metric=alert_status)](https://sonarcloud.io/dashboard?id=tiwariav_react-multi-app)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tiwariav_react-multi-app&metric=alert_status)](https://sonarcloud.io/dashboard?id=tiwariav_react-multi-app)
 
 ## Features
 
