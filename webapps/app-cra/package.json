@@ -1,5 +1,5 @@
 {
-  "name": "@react-multi-app/explorer",
+  "name": "@react-multi-app/app-cra",
   "version": "0.1.0",
   "dependencies": {
     "@react-multi-app/shared": "*",

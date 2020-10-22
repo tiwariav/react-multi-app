@@ -1,5 +1,5 @@
 {
-  "name": "@react-multi-app/app-second",
+  "name": "@react-multi-app/dashboard",
   "version": "0.1.0",
   "dependencies": {
     "@react-multi-app/shared": "*",

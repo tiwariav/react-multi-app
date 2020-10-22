@@ -2362,9 +2362,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-multi-app/app-first@workspace:webapps/app-first":
+"@react-multi-app/app-cra@workspace:webapps/app-cra":
   version: 0.0.0-use.local
-  resolution: "@react-multi-app/app-first@workspace:webapps/app-first"
+  resolution: "@react-multi-app/app-cra@workspace:webapps/app-cra"
   dependencies:
     "@react-multi-app/shared": "*"
     "@testing-library/jest-dom": ^5.11.4
@@ -2379,26 +2379,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-multi-app/app-second@workspace:webapps/app-second":
+"@react-multi-app/dashboard@workspace:webapps/dashboard":
   version: 0.0.0-use.local
-  resolution: "@react-multi-app/app-second@workspace:webapps/app-second"
-  dependencies:
-    "@react-multi-app/shared": "*"
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.9
-    customize-cra: ^1.0.0
-    react: ^17.0.0
-    react-app-rewire-yarn-workspaces: ^1.0.3
-    react-app-rewired: ^2.1.6
-    react-dom: ^17.0.0
-    react-scripts: 3.4.4
-  languageName: unknown
-  linkType: soft
-
-"@react-multi-app/explorer@workspace:webapps/app-explorer":
-  version: 0.0.0-use.local
-  resolution: "@react-multi-app/explorer@workspace:webapps/app-explorer"
+  resolution: "@react-multi-app/dashboard@workspace:webapps/dashboard"
   dependencies:
     "@react-multi-app/shared": "*"
     "@testing-library/jest-dom": ^5.11.4
