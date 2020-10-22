@@ -12,7 +12,7 @@
     "email": "tiwariav@gmail.com"
   },
   "workspaces": [
-    "webapps/*",
+    "apps/*",
     "packages/*"
   ],
   "devDependencies": {
