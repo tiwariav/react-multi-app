@@ -48,6 +48,8 @@ Now run any app using defined scripts from the respective `package.json` files.
 
 ### Clone individual apps configured to work in a monorepo
 
+`npm install -g degit`
+
 #### create-react-app
 
 `degit tiwariav/react-multi-app/apps/app-cra app-name`
