@@ -6,7 +6,6 @@
   ],
   "plugins": ["react-hooks"],
   "rules": {
-    "no-console": "error",
     "react-hooks/rules-of-hooks": "error"
   }
 }

@@ -2511,7 +2511,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@react-multi-app/app-cra@workspace:apps/app-cra"
   dependencies:
-    "@react-multi-app/shared": "*"
+    "@react-multi-app/shared": "workspace:*"
     "@testing-library/jest-dom": ^5.11.5
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
@@ -2520,6 +2520,7 @@ __metadata:
     react-app-rewire-yarn-workspaces: ^1.0.3
     react-app-rewired: ^2.1.6
     react-dom: ^17.0.1
+    react-refresh: ^0.8.3
     react-scripts: 4.0.0
   languageName: unknown
   linkType: soft
@@ -2541,7 +2542,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-multi-app/shared@*, @react-multi-app/shared@workspace:packages/shared":
+"@react-multi-app/shared@*, @react-multi-app/shared@workspace:*, @react-multi-app/shared@workspace:packages/shared":
   version: 0.0.0-use.local
   resolution: "@react-multi-app/shared@workspace:packages/shared"
   dependencies:
@@ -2554,10 +2555,12 @@ __metadata:
     "@storybook/node-logger": ^6.1.0-alpha.29
     "@storybook/react": ^6.1.0-alpha.29
     babel-loader: ^8.1.0
+    clsx: ^1.1.1
     core-js: ^3.6.5
     prop-types: ^15.7.2
     react: ^17.0.1
     react-dom: ^17.0.1
+    react-refresh: ^0.8.3
   languageName: unknown
   linkType: soft
 
@@ -4743,11 +4746,11 @@ __metadata:
   linkType: hard
 
 "agent-base@npm:6":
-  version: 6.0.1
-  resolution: "agent-base@npm:6.0.1"
+  version: 6.0.2
+  resolution: "agent-base@npm:6.0.2"
   dependencies:
     debug: 4
-  checksum: 5dbab2ce93cbf858c557c87a7401114ccf6afdd3d1c5c038831798de2be3873356bb1c09067a75e7e1f9a9ba84b4d979d3aec8cab3db87c776f05b5ae693323c
+  checksum: e77eff83e1308883118c7b6a866974dd4ef6be32ef7c91625d5337b13addb5699075c338942f5ecf598d7e5d179b81bf9c9fc644dfb9ca2db0facd9e6bf1238d
   languageName: node
   linkType: hard
 
@@ -4976,7 +4979,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-next@workspace:apps/app-next"
   dependencies:
+    "@react-multi-app/shared": "workspace:*"
     next: 9.5.5
+    next-transpile-modules: ^4.1.0
     react: 17.0.1
     react-dom: 17.0.1
   languageName: unknown
@@ -7052,6 +7057,13 @@ __metadata:
   dependencies:
     mimic-response: ^1.0.0
   checksum: 71832f9219f2682b0915bdbc0dd187ba8e63d16b0af5342b44f97b34afe9400a1f528a253dd2f70a8dd8b23bfa4c4e106928fcc520fa5899d769af95e4cce53c
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "clsx@npm:1.1.1"
+  checksum: d8ae10ac0546da19fe8c9516886f6582a64a382cf4d09ea7d36d5287cafbdab1192ab249adc2cdf0310e0b0aeac4f4142cf7c738c98d9cb68c19ba24b6f673d5
   languageName: node
   linkType: hard
 
@@ -15093,6 +15105,16 @@ fsevents@^1.2.7:
   version: 1.0.0
   resolution: "next-tick@npm:1.0.0"
   checksum: 18db63c447c6e65a23235b91da9ccdae53f74f9194cfbc71a1fd3170cdf81bd157d9676e47c2ea4ea5bd20e09fb019917b0a45d8e1a63e377175fc083f285234
+  languageName: node
+  linkType: hard
+
+"next-transpile-modules@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "next-transpile-modules@npm:4.1.0"
+  dependencies:
+    micromatch: ^4.0.2
+    slash: ^3.0.0
+  checksum: 2c06fec8e4354a80acfd65eecc7984a429b972deb11cf12f9709d3909de41fbafd9630016041b3eb326581727e93ea58e036f924600b75022967753401203faa
   languageName: node
   linkType: hard
 

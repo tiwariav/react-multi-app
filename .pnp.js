@@ -4516,6 +4516,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-app-rewire-yarn-workspaces", "npm:1.0.3"],
             ["react-app-rewired", "virtual:56e0cf178dd540d21d9db527df6028018ed15ea82cfa6c81d2915e1b90d59a8e4afa87fb7c2295462306d80914645b87f99e60d4675758fc18903052b2793f8a#npm:2.1.6"],
             ["react-dom", "virtual:c95e80537d0d868bb6587470ea6e189594050da92c762c4dcf1e96cd5f87202ad8b7e19b992955cbfa39f156cc5e671b8d7e973bac326d3b1d3790b08afdc7c0#npm:17.0.1"],
+            ["react-refresh", "npm:0.8.3"],
             ["react-scripts", "virtual:56e0cf178dd540d21d9db527df6028018ed15ea82cfa6c81d2915e1b90d59a8e4afa87fb7c2295462306d80914645b87f99e60d4675758fc18903052b2793f8a#npm:4.0.0"]
           ],
           "linkType": "SOFT",
@@ -4554,10 +4555,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/node-logger", "npm:6.1.0-alpha.29"],
             ["@storybook/react", "virtual:c95e80537d0d868bb6587470ea6e189594050da92c762c4dcf1e96cd5f87202ad8b7e19b992955cbfa39f156cc5e671b8d7e973bac326d3b1d3790b08afdc7c0#npm:6.1.0-alpha.29"],
             ["babel-loader", "virtual:c95e80537d0d868bb6587470ea6e189594050da92c762c4dcf1e96cd5f87202ad8b7e19b992955cbfa39f156cc5e671b8d7e973bac326d3b1d3790b08afdc7c0#npm:8.1.0"],
+            ["clsx", "npm:1.1.1"],
             ["core-js", "npm:3.6.5"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:17.0.1"],
-            ["react-dom", "virtual:c95e80537d0d868bb6587470ea6e189594050da92c762c4dcf1e96cd5f87202ad8b7e19b992955cbfa39f156cc5e671b8d7e973bac326d3b1d3790b08afdc7c0#npm:17.0.1"]
+            ["react-dom", "virtual:c95e80537d0d868bb6587470ea6e189594050da92c762c4dcf1e96cd5f87202ad8b7e19b992955cbfa39f156cc5e671b8d7e973bac326d3b1d3790b08afdc7c0#npm:17.0.1"],
+            ["react-refresh", "npm:0.8.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -7034,10 +7037,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["agent-base", [
-        ["npm:6.0.1", {
-          "packageLocation": "./.yarn/cache/agent-base-npm-6.0.1-7d2f487ea1-5dbab2ce93.zip/node_modules/agent-base/",
+        ["npm:6.0.2", {
+          "packageLocation": "./.yarn/cache/agent-base-npm-6.0.2-428f325a93-e77eff83e1.zip/node_modules/agent-base/",
           "packageDependencies": [
-            ["agent-base", "npm:6.0.1"],
+            ["agent-base", "npm:6.0.2"],
             ["debug", "virtual:18c7f62d46e3b11b75bacf415dd3643ad639bd8214511b35c5552bbc85e9b6b92324318a6f3571677033bbd8969b925ecf0001e058459d983a5e2ecc470a2707#npm:4.3.0"]
           ],
           "linkType": "HARD",
@@ -7296,7 +7299,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/app-next/",
           "packageDependencies": [
             ["app-next", "workspace:apps/app-next"],
+            ["@react-multi-app/shared", "workspace:packages/shared"],
             ["next", "virtual:bf0c195cace2f0fe9db35d6ed0cb5016ee2df1d3ab4f0238f5c4003e3ab7926d624fc16e24ee9928681b6f847cb800079955c46dbd2e10a366d8977c421e1d80#npm:9.5.5"],
+            ["next-transpile-modules", "npm:4.1.0"],
             ["react", "npm:17.0.1"],
             ["react-dom", "virtual:c95e80537d0d868bb6587470ea6e189594050da92c762c4dcf1e96cd5f87202ad8b7e19b992955cbfa39f156cc5e671b8d7e973bac326d3b1d3790b08afdc7c0#npm:17.0.1"]
           ],
@@ -9666,6 +9671,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["clone-response", "npm:1.0.2"],
             ["mimic-response", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["clsx", [
+        ["npm:1.1.1", {
+          "packageLocation": "./.yarn/cache/clsx-npm-1.1.1-362bec0598-d8ae10ac05.zip/node_modules/clsx/",
+          "packageDependencies": [
+            ["clsx", "npm:1.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -14943,7 +14957,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/https-proxy-agent-npm-5.0.0-bb777903c3-18aa04ea08.zip/node_modules/https-proxy-agent/",
           "packageDependencies": [
             ["https-proxy-agent", "npm:5.0.0"],
-            ["agent-base", "npm:6.0.1"],
+            ["agent-base", "npm:6.0.2"],
             ["debug", "virtual:18c7f62d46e3b11b75bacf415dd3643ad639bd8214511b35c5552bbc85e9b6b92324318a6f3571677033bbd8969b925ecf0001e058459d983a5e2ecc470a2707#npm:4.3.0"]
           ],
           "linkType": "HARD",
@@ -18779,6 +18793,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/next-tick-npm-1.0.0-0c0dd4bec1-18db63c447.zip/node_modules/next-tick/",
           "packageDependencies": [
             ["next-tick", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["next-transpile-modules", [
+        ["npm:4.1.0", {
+          "packageLocation": "./.yarn/cache/next-transpile-modules-npm-4.1.0-066cd7b78c-2c06fec8e4.zip/node_modules/next-transpile-modules/",
+          "packageDependencies": [
+            ["next-transpile-modules", "npm:4.1.0"],
+            ["micromatch", "npm:4.0.2"],
+            ["slash", "npm:3.0.0"]
           ],
           "linkType": "HARD",
         }]

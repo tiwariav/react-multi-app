@@ -2,7 +2,7 @@
   "name": "@react-multi-app/app-cra",
   "version": "0.1.0",
   "dependencies": {
-    "@react-multi-app/shared": "*",
+    "@react-multi-app/shared": "workspace:*",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -11,6 +11,7 @@
     "react-app-rewire-yarn-workspaces": "^1.0.3",
     "react-app-rewired": "^2.1.6",
     "react-dom": "^17.0.1",
+    "react-refresh": "^0.8.3",
     "react-scripts": "4.0.0"
   },
   "scripts": {
@@ -19,9 +20,6 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [

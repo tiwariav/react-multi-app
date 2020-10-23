@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Header } from "../Header/Header";
-import "./page.css";
+import styles from "./page.module.css";
 
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <article>
@@ -60,8 +60,9 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
         </a>
         .
       </p>
-      <div className="tip-wrapper">
-        <span className="tip">Tip</span> Adjust the width of the canvas with the{" "}
+      <div className={styles.tipWrapper}>
+        <span className={styles.tip}>Tip</span> Adjust the width of the canvas
+        with the{" "}
         <svg
           width="10"
           height="10"

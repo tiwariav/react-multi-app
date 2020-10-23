@@ -1,6 +1,7 @@
-import React from "react";
+import clsx from "clsx";
 import PropTypes from "prop-types";
-import "./button.css";
+import React from "react";
+import styles from "./button.module.css";
 
 /**
  * Primary UI component for user interaction
@@ -12,15 +13,11 @@ export const Button = ({
   children,
   ...props
 }) => {
-  const mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
+  const mode = primary ? styles.primary : styles.secondary;
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
-      )}
+      className={clsx(styles.button, styles[size], mode)}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >

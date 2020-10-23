@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Button } from "../Button/Button";
-import "./header.css";
+import styles from "./header.module.css";
 
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <div>
         <svg
           width="32"

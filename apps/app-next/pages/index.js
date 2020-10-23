@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { Button } from "@react-multi-app/shared/components/Button/Button";
 
 export default function Home() {
   return (
@@ -48,6 +49,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <hr />
+        <Button primary>Shared Button</Button>
       </main>
 
       <footer className={styles.footer}>
