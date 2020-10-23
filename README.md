@@ -4,8 +4,8 @@
 
 ## Features
 
-- Create React App 3 (React 17.0)
-- Storybook 6
+- Create React App 4 (React 17.0)
+- Storybook 6.1
 - Yarn Workspaces (v2 / berry)
 - Host Multiple CRA Apps and Component Libraries in one Monorepo
 - Include any App into any another App as a component
