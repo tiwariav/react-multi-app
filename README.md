@@ -1,6 +1,6 @@
 # React Multi App
 
-[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.lapots.breed.judge:judge-rule-engine)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tiwariav_react-multi-app&metric=alert_status)](https://sonarcloud.io/dashboard?id=tiwariav_react-multi-app)
 
 Create different compatible and importable apps using any of the supported frameworks, along with a shared component library and storybook.  
 Although most applications can be easily built and managed as a single react application, there are many cases where you would want to break your one large application into multiple applications.  
