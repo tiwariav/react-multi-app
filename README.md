@@ -3,6 +3,9 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tiwariav_react-multi-app&metric=alert_status)](https://sonarcloud.io/dashboard?id=tiwariav_react-multi-app)
 
 Create different compatible and importable apps using any of the supported frameworks, along with a shared component library and storybook.  
+
+## Why multiple apps
+
 Although most applications can be easily built and managed as a single react application, there are many cases where you would want to break your one large application into multiple applications.  
 
 This repo aims to setup this simple scenario and
@@ -19,14 +22,13 @@ This repo aims to setup this simple scenario and
 - Host shared component library to be used across all the apps in the monorepo ([see details](#how-does-it-work))
 - Host multiple react apps using any of the supported frameworks in a monorepo ([see details](#how-does-it-work))
 - Include components from one App into another ([see details](#how-does-it-work))
-- Include any App into any another App as a component ([see details](#how-does-it-work))
+- Include any App into any another App (created using the same framework) as a component ([see details](#how-does-it-work))
 
 ## Supported Frameworks
 
 - Create React App 4 (CRA)
 - Next.js 9.5
-
-... more in progress
+- Gatsby 2.24
 
 ## Setup
 
@@ -55,6 +57,10 @@ Now run any app using defined scripts from the respective `package.json` files.
 #### next.js
 
 `degit tiwariav/react-multi-app/apps/app-next app-name`
+
+#### gatsby
+
+`degit tiwariav/react-multi-app/apps/app-gatsby app-name`
 
 ## How Does It Work
 

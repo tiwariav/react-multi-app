@@ -1,5 +1,5 @@
 {
-  "name": "app-next",
+  "name": "@react-multi-app/app-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
