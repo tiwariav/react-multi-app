@@ -19,12 +19,12 @@
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@mdx-js/react": "^1.6.19",
-    "@storybook/addon-actions": "^6.1.0-alpha.29",
-    "@storybook/addon-docs": "^6.1.0-alpha.29",
-    "@storybook/addon-essentials": "^6.1.0-alpha.29",
-    "@storybook/addon-links": "^6.1.0-alpha.29",
-    "@storybook/node-logger": "^6.1.0-alpha.29",
-    "@storybook/react": "^6.1.0-alpha.29",
+    "@storybook/addon-actions": "^6.1.0-alpha.31",
+    "@storybook/addon-docs": "^6.1.0-alpha.31",
+    "@storybook/addon-essentials": "^6.1.0-alpha.31",
+    "@storybook/addon-links": "^6.1.0-alpha.31",
+    "@storybook/node-logger": "^6.1.0-alpha.31",
+    "@storybook/react": "^6.1.0-alpha.31",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
     "react-refresh": "^0.8.3"
