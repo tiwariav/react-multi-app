@@ -32,7 +32,7 @@ This repo aims to setup this simple scenario and
 
 ## Setup
 
-### To use the repo as a starting template
+### To use the repo as a starting template (*recommended*)
 
 ```bash
 git clone git@github.com:tiwariav/react-multi-app-cra.git
@@ -54,15 +54,15 @@ Now run any app using defined scripts from the respective `package.json` files.
 
 #### create-react-app
 
-`degit tiwariav/react-multi-app/apps/app-cra app-name`
+`degit tiwariav/react-multi-app/apps/app-cra#main app-name`
 
 #### next.js
 
-`degit tiwariav/react-multi-app/apps/app-next app-name`
+`degit tiwariav/react-multi-app/apps/app-next#main app-name`
 
 #### gatsby
 
-`degit tiwariav/react-multi-app/apps/app-gatsby app-name`
+`degit tiwariav/react-multi-app/apps/app-gatsby#main app-name`
 
 ## How Does It Work
 
