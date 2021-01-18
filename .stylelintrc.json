@@ -1,6 +1,9 @@
 {
   "extends": [
     "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-css-modules",
+    "stylelint-a11y/recommended",
     "stylelint-config-rational-order"
   ],
   "plugins": [
@@ -9,6 +12,7 @@
     "stylelint-no-unused-selectors"
   ],
   "rules": {
+    "a11y/no-outline-none": null,
     "order/properties-alphabetical-order": null,
     "plugin/declaration-block-no-ignored-properties": true,
     "plugin/no-unsupported-browser-features": [

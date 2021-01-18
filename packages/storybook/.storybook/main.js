@@ -1,9 +1,24 @@
+const css_regex = "/\\.css$/";
+
 module.exports = {
   stories: [
     "../../../**/*.stories.mdx",
     "../../../**/*.stories.@(js|jsx|ts|tsx)",
   ],
-  addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
+  addons: [
+    "@storybook/addon-docs",
+    "@storybook/addon-controls",
+    "@storybook/addon-actions",
+    "@storybook/addon-a11y",
+    "@storybook/addon-links",
+    "@storybook/addon-backgrounds",
+    "@storybook/addon-events",
+    "@storybook/addon-jest",
+    "@storybook/addon-queryparams",
+    "@storybook/addon-storysource",
+    "@storybook/addon-toolbars",
+    "@storybook/addon-viewport",
+  ],
   webpackFinal: async (config, { configType }) => {
     // `configType` has a value of 'DEVELOPMENT' or 'PRODUCTION'
     // You can change the configuration based on that.
@@ -38,6 +53,12 @@ module.exports = {
         }),
       },
     ];
+
+    // sass support
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: ["style-loader", "css-loader", "sass-loader"],
+    });
 
     // Return the altered config
     return config;
