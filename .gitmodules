@@ -1,0 +1,3 @@
+[submodule "packages/one-storybook"]
+	path = packages/one-storybook
+	url = git@github.com:tiwariav/one-storybook.git
