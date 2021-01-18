@@ -1,4 +1,6 @@
 const css_regex = "/\\.css$/";
+const file_regex =
+  "/.(svg|ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(?.*)?$/";
 
 module.exports = {
   stories: [
@@ -40,12 +42,19 @@ module.exports = {
         ...cssRule,
         test: /\.module\.css$/,
         use: cssRule.use.map((rule) => {
-          if (rule && rule.loader && rule.loader.includes("css-loader")) {
+          if (rule && rule.loader && rule.loader.match(/\Wcss-loader/g)) {
             return {
               ...rule,
               options: {
                 ...rule.options,
-                modules: true,
+                sourceMap: true,
+                localsConvention: "camelCase",
+                modules: {
+                  localIdentName:
+                    configType === "DEVELOPMENT"
+                      ? "[name]__[local]"
+                      : "[hash:base64]",
+                },
               },
             };
           }
@@ -60,7 +69,16 @@ module.exports = {
       use: ["style-loader", "css-loader", "sass-loader"],
     });
 
-    // Return the altered config
+    // svg inline imports
+    // const fileLoaderRule = config.module.rules.find(
+    //   (rule) => rule.test.toString() === file_regex
+    // );
+    // fileLoaderRule.exclude = /\.inline.svg$/;
+    // config.module.rules.push({
+    //   test: /\.svg$/,
+    //   use: ["@svgr/webpack", "url-loader"],
+    // });
+
     return config;
   },
 };

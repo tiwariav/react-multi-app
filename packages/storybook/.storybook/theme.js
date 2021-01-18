@@ -6,4 +6,8 @@ export default create({
   // Typography
   fontBase: '"Open Sans", sans-serif',
   fontCode: "monospace",
+
+  // UI
+  // appBg: "#f6f7f8",
+  // appContentBg: "#fdfdfd",
 });

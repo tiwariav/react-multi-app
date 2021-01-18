@@ -22975,6 +22975,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"postcss@npm:*, postcss@npm:^8.1.4, postcss@npm:^8.1.6":
+  version: 8.2.4
+  resolution: "postcss@npm:8.2.4"
+  dependencies:
+    colorette: ^1.2.1
+    nanoid: ^3.1.20
+    source-map: ^0.6.1
+  checksum: fb06b52d515c6768f5e372b3cec3d902cc0f37dd5128657739ab524ccc155655a6b2adf2f44cf670ad38cbccddae79d72d21093aecd1a7b023609ef548d71d6d
+  languageName: node
+  linkType: hard
+
 "postcss@npm:7.0.21":
   version: 7.0.21
   resolution: "postcss@npm:7.0.21"
@@ -23040,17 +23051,6 @@ fsevents@~2.3.1:
     nanoid: ^3.1.15
     source-map: ^0.6.1
   checksum: b2bfa799c058d1c19b0f433667bc933b85f3d5b78fa46c4f6239322b1cc2d9b2652cba009ac3632bfec4b955818d406f21d95f3b3a4592ec32a14a3dc5dafe27
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.1.4, postcss@npm:^8.1.6":
-  version: 8.2.4
-  resolution: "postcss@npm:8.2.4"
-  dependencies:
-    colorette: ^1.2.1
-    nanoid: ^3.1.20
-    source-map: ^0.6.1
-  checksum: fb06b52d515c6768f5e372b3cec3d902cc0f37dd5128657739ab524ccc155655a6b2adf2f44cf670ad38cbccddae79d72d21093aecd1a7b023609ef548d71d6d
   languageName: node
   linkType: hard
 

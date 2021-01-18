@@ -35194,6 +35194,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["stylelint-a11y", "virtual:58d0d48840c90305570c963134bb47202efed5c250dcbf73e020061482f30910a17cbf096bc4d14ae80a3bcb736187f0e404f6c8268d75d63bbbd975b0650d75#npm:1.2.3"],
             ["@types/stylelint", null],
+            ["postcss", "npm:8.2.4"],
             ["stylelint", "npm:13.8.0"]
           ],
           "packagePeers": [
